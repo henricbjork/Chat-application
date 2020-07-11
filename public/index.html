@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.dev.js"></script>
+    <title>WebSockets 101</title>
+  </head>
+  <body>
+    <div class="my-chat">
+      <div class="chat-window">
+        <div class="output"></div>
+        <div class="feedback"></div>
+      </div>
+      <input type="text" class="handle" placeholder="Handle" />
+      <input type="text" class="message" placeholder="Message" />
+      <button class="send">Send</button>
+    </div>
+    <script src="/chat.js"></script>
+  </body>
+</html>
